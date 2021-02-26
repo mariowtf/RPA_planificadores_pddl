@@ -1,4 +1,7 @@
 # RPA_planificadores_pddl
+https://www.icaps-conference.org/competitions/
+https://ipc2018-classical.bitbucket.io/
+
 wget al raw desde singularity 
 $ RUNDIR="$(pwd)/rundir" 
 $ DOMAIN="$RUNDIR/domain.pddl" 
