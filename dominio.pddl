@@ -57,7 +57,7 @@
 )
 
 (:action subirEnfermo
-    :parameters (?ambulancia - ambulancia ?localizacion -localizacion ?enfermo - enfermo)
+    :parameters (?ambulancia - ambulancia ?localizacion - localizacion ?enfermo - enfermo)
     :precondition (and 
         (l_ambulancia ?ambulancia ?localizacion)
         (l_enfermo ?enfermo ?localizacion)
@@ -72,7 +72,7 @@
 )
 
 (:action bajarEnfermo
-    :parameters (?ambulancia - ambulancia ?localizacion -localizacion ?enfermo - enfermo)
+    :parameters (?ambulancia - ambulancia ?localizacion - localizacion ?enfermo - enfermo)
     :precondition (and 
         (l_ambulancia ?ambulancia ?localizacion)
        ; (l_enfermo ?enfermo ?localizacion)
