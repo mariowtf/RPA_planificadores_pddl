@@ -27,7 +27,7 @@
 
 
 (:action conducirVacia
-    :parameters (?ambulancia - ambulancia ?localizacionOrigen -localizacion ?localizacionDestino - localizacion)
+    :parameters (?ambulancia - ambulancia ?localizacionOrigen - localizacion ?localizacionDestino - localizacion)
     :precondition (and 
         (l_ambulancia ?ambulancia ?localizacionOrigen)
         (enlace ?localizacionOrigen ?localizacionDestino)
@@ -41,7 +41,7 @@
 
 
 (:action conducirLlena
-    :parameters (?ambulancia - ambulancia ?localizacionOrigen -localizacion ?localizacionDestino - localizacion ?enfermo - enfermo)
+    :parameters (?ambulancia - ambulancia ?localizacionOrigen - localizacion ?localizacionDestino - localizacion ?enfermo - enfermo)
     :precondition (and 
         (l_ambulancia ?ambulancia ?localizacionOrigen)
         (enlace ?localizacionOrigen ?localizacionDestino)
